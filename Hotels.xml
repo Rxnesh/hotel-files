@@ -1,9 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-
-<!-- Root element: contains all hotels -->
+<?xml version="1.0" encoding="UTF-8"?>
 <Hotels>
-
-	<!-- Hotel 1: Includes Rating and multiple phones -->
 	<Hotel Rating="4.2">
 		<Name>Westin</Name>
 		<Phone>480-968-8885</Phone>
@@ -17,8 +13,6 @@
 			<NearestAirport>Sky Harbor</NearestAirport>
 		</Address>
 	</Hotel>
-
-	<!-- Hotel 2: No Rating, single phone -->
 	<Hotel>
 		<Name>Hyatt Place</Name>
 		<Phone>602-555-1234</Phone>
@@ -30,8 +24,6 @@
 			<Zip>85282</Zip>
 		</Address>
 	</Hotel>
-
-	<!-- Hotel 3: With Rating -->
 	<Hotel Rating="3.5">
 		<Name>Marriott</Name>
 		<Phone>623-111-2222</Phone>
@@ -43,8 +35,6 @@
 			<Zip>85283</Zip>
 		</Address>
 	</Hotel>
-
-	<!-- Hotel 4 -->
 	<Hotel>
 		<Name>Hilton</Name>
 		<Phone>602-000-1111</Phone>
@@ -56,8 +46,6 @@
 			<Zip>85284</Zip>
 		</Address>
 	</Hotel>
-
-	<!-- Hotel 5: With Rating and multiple phones -->
 	<Hotel Rating="4.7">
 		<Name>Holiday Inn</Name>
 		<Phone>480-567-8910</Phone>
@@ -71,8 +59,6 @@
 			<NearestAirport>Phoenix-Mesa</NearestAirport>
 		</Address>
 	</Hotel>
-
-	<!-- Hotel 6 -->
 	<Hotel Rating="3.9">
 		<Name>Aloft</Name>
 		<Phone>480-101-2020</Phone>
@@ -84,8 +70,6 @@
 			<Zip>85286</Zip>
 		</Address>
 	</Hotel>
-
-	<!-- Hotel 7 -->
 	<Hotel>
 		<Name>Comfort Suites</Name>
 		<Phone>480-303-7890</Phone>
@@ -97,8 +81,6 @@
 			<Zip>85287</Zip>
 		</Address>
 	</Hotel>
-
-	<!-- Hotel 8 -->
 	<Hotel Rating="4.0">
 		<Name>Courtyard</Name>
 		<Phone>602-909-5050</Phone>
@@ -110,8 +92,6 @@
 			<Zip>85288</Zip>
 		</Address>
 	</Hotel>
-
-	<!-- Hotel 9 -->
 	<Hotel>
 		<Name>Embassy Suites</Name>
 		<Phone>480-345-1234</Phone>
@@ -123,6 +103,5 @@
 			<Zip>85289</Zip>
 		</Address>
 	</Hotel>
-
 </Hotels>
 
