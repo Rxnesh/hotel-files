@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Root element: contains all hotels -->
+<Hotels>
+
+	<!-- Hotel 1: Includes Rating and multiple phones -->
+	<Hotel Rating="4.2">
+		<Name>Westin</Name>
+		<Phone>480-968-8885</Phone>
+		<Phone>800-937-8461</Phone>
+		<Address>
+			<Number>11</Number>
+			<Street>E 7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+			<NearestAirport>Sky Harbor</NearestAirport>
+		</Address>
+	</Hotel>
+
+	<!-- Hotel 2: No Rating, single phone -->
+	<Hotel>
+		<Name>Hyatt Place</Name>
+		<Phone>602-555-1234</Phone>
+		<Address>
+			<Number>100</Number>
+			<Street>Mill Ave</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85282</Zip>
+		</Address>
+	</Hotel>
+
+	<!-- Hotel 3: With Rating -->
+	<Hotel Rating="3.5">
+		<Name>Marriott</Name>
+		<Phone>623-111-2222</Phone>
+		<Address>
+			<Number>225</Number>
+			<Street>Rural Rd</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85283</Zip>
+		</Address>
+	</Hotel>
+
+	<!-- Hotel 4 -->
+	<Hotel>
+		<Name>Hilton</Name>
+		<Phone>602-000-1111</Phone>
+		<Address>
+			<Number>331</Number>
+			<Street>Apache Blvd</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85284</Zip>
+		</Address>
+	</Hotel>
+
+	<!-- Hotel 5: With Rating and multiple phones -->
+	<Hotel Rating="4.7">
+		<Name>Holiday Inn</Name>
+		<Phone>480-567-8910</Phone>
+		<Phone>800-222-3333</Phone>
+		<Address>
+			<Number>87</Number>
+			<Street>Scottsdale Rd</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85285</Zip>
+			<NearestAirport>Phoenix-Mesa</NearestAirport>
+		</Address>
+	</Hotel>
+
+	<!-- Hotel 6 -->
+	<Hotel Rating="3.9">
+		<Name>Aloft</Name>
+		<Phone>480-101-2020</Phone>
+		<Address>
+			<Number>45</Number>
+			<Street>University Dr</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85286</Zip>
+		</Address>
+	</Hotel>
+
+	<!-- Hotel 7 -->
+	<Hotel>
+		<Name>Comfort Suites</Name>
+		<Phone>480-303-7890</Phone>
+		<Address>
+			<Number>92</Number>
+			<Street>Southern Ave</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85287</Zip>
+		</Address>
+	</Hotel>
+
+	<!-- Hotel 8 -->
+	<Hotel Rating="4.0">
+		<Name>Courtyard</Name>
+		<Phone>602-909-5050</Phone>
+		<Address>
+			<Number>33</Number>
+			<Street>Broadway Rd</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85288</Zip>
+		</Address>
+	</Hotel>
+
+	<!-- Hotel 9 -->
+	<Hotel>
+		<Name>Embassy Suites</Name>
+		<Phone>480-345-1234</Phone>
+		<Address>
+			<Number>12</Number>
+			<Street>Priest Dr</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85289</Zip>
+		</Address>
+	</Hotel>
+
+</Hotels>
+
