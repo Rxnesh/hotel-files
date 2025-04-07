@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- Root element -->
+<!-- Root element for hotel list -->
 <Hotels>
 
-	<!-- Hotel 1 with optional Rating and multiple phones -->
+	<!-- Hotel 1: Includes optional Rating and multiple phone numbers -->
 	<Hotel Rating="4.2">
 		<Name>Westin</Name>
 		<Phone>480-968-8885</Phone>
@@ -18,7 +18,7 @@
 		</Address>
 	</Hotel>
 
-	<!-- Hotel 2 without Rating -->
+	<!-- Hotel 2: No Rating -->
 	<Hotel>
 		<Name>Hyatt Place</Name>
 		<Phone>602-555-1234</Phone>
@@ -32,7 +32,7 @@
 		</Address>
 	</Hotel>
 
-	<!-- Hotel 3 with Rating -->
+	<!-- Hotel 3 -->
 	<Hotel Rating="3.5">
 		<Name>Marriott</Name>
 		<Phone>623-111-2222</Phone>
@@ -60,7 +60,7 @@
 		</Address>
 	</Hotel>
 
-	<!-- Hotel 5 with Rating and multiple phones -->
+	<!-- Hotel 5 -->
 	<Hotel Rating="4.7">
 		<Name>Holiday Inn</Name>
 		<Phone>480-567-8910</Phone>
@@ -85,7 +85,7 @@
 			<City>Tempe</City>
 			<State>AZ</State>
 			<Zip>85286</Zip>
-			<NearestAirport>Sky Harbor</NearestAirport>
+			<NearestAirport>Phoenix-Mesa</NearestAirport>
 		</Address>
 	</Hotel>
 
@@ -99,11 +99,11 @@
 			<City>Tempe</City>
 			<State>AZ</State>
 			<Zip>85287</Zip>
-			<NearestAirport>Sky Harbor</NearestAirport>
+			<NearestAirport>Phoenix-Mesa</NearestAirport>
 		</Address>
 	</Hotel>
 
-	<!-- Hotel 8 with Rating -->
+	<!-- Hotel 8 -->
 	<Hotel Rating="4.0">
 		<Name>Courtyard</Name>
 		<Phone>602-909-5050</Phone>
@@ -127,17 +127,17 @@
 			<City>Tempe</City>
 			<State>AZ</State>
 			<Zip>85289</Zip>
-			<NearestAirport>Sky Harbor</NearestAirport>
+			<NearestAirport>Phoenix-Mesa</NearestAirport>
 		</Address>
 	</Hotel>
 
-	<!-- Hotel 10 with Rating -->
-	<Hotel Rating="4.5">
-		<Name>Omni Tempe Hotel</Name>
-		<Phone>480-444-9999</Phone>
+	<!-- Hotel 10 -->
+	<Hotel Rating="3.8">
+		<Name>DoubleTree</Name>
+		<Phone>480-000-4321</Phone>
 		<Address>
-			<Number>7</Number>
-			<Street>University Dr</Street>
+			<Number>77</Number>
+			<Street>Rural Rd</Street>
 			<City>Tempe</City>
 			<State>AZ</State>
 			<Zip>85290</Zip>
@@ -146,4 +146,3 @@
 	</Hotel>
 
 </Hotels>
-
