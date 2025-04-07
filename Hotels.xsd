@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-	<!-- Root element: Hotels -->
+	<!-- Root element for the hotel directory -->
 	<xs:element name="Hotels">
 		<xs:complexType>
 			<xs:sequence>
-				<!-- Multiple Hotel entries allowed -->
+
+				<!-- Repeating Hotel element -->
 				<xs:element name="Hotel" maxOccurs="unbounded">
 					<xs:complexType>
 						<xs:sequence>
-							<!-- Name (required) -->
+
+							<!-- Hotel name -->
 							<xs:element name="Name" type="xs:string"/>
 
-							<!-- Phone (1 or more) -->
+							<!-- One or more phone numbers -->
 							<xs:element name="Phone" type="xs:string" maxOccurs="unbounded"/>
 
-							<!-- Address block -->
+							<!-- Address element containing 6 child elements -->
 							<xs:element name="Address">
 								<xs:complexType>
 									<xs:sequence>
-										<!-- These must appear in this exact order -->
 										<xs:element name="Number" type="xs:string"/>
 										<xs:element name="Street" type="xs:string"/>
 										<xs:element name="City" type="xs:string"/>
 										<xs:element name="State" type="xs:string"/>
 										<xs:element name="Zip" type="xs:string"/>
-										<!-- Required element -->
 										<xs:element name="NearestAirport" type="xs:string"/>
+										<!-- Required -->
 									</xs:sequence>
 								</xs:complexType>
 							</xs:element>
+
 						</xs:sequence>
+
 						<!-- Optional Rating attribute -->
-						<xs:attribute name="Rating" type="xs:string" use="optional"/>
+						<xs:attribute name="Rating" type="xs:decimal" use="optional"/>
+
 					</xs:complexType>
 				</xs:element>
+
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 
 </xs:schema>
-
-
-
-
-
